@@ -277,7 +277,7 @@ export class GuiModel {
 "search": true,
 "url": "/group",
 "form": {
-"form": "GroupForm"
+"form": "GroupForm" 
 }
 },
 
