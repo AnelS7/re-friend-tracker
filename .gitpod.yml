@@ -1,6 +1,10 @@
 tasks:
+<<<<<<< HEAD
   - init: eval $(gp env NG_CLI_ANALYTICS=false)
     command: npm install
+=======
+  - init: eval $(gp env NG_CLI_ANALYTICS=false) && npm install
+>>>>>>> c1d631b24c39a3176e097879611a0e534e9b648d
     command: npm run start
   - command: gp open src/app/gui-model/guimodel.ts
 ports:
